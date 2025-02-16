@@ -1,0 +1,4 @@
+streamingcommunity-unofficialapi
+yt-dlp
+requests
+beautifulsoup4
