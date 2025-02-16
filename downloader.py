@@ -7,6 +7,10 @@
 # Questo script permette di cercare e scaricare episodi da StreamingCommunity utilizzando 
 # l'API di "streamingcommunity" e yt-dlp per il download del contenuto. 
 # 
+
+# ATTENZIONE
+# Modifica il percorso in cui salvare il file ad es. c:\serie nella var download_directory
+
 # LICENSE:
 # Questo script è liberamente utilizzabile, con la seguente condizione:
 # Se desideri utilizzare e modificare lo script, ti chiedo gentilmente di fare una donazione 
@@ -339,6 +343,7 @@ def search_and_download(search_term, download_directory):
 
 
 # Esegui la ricerca e il download per il termine inserito
-download_directory = r"h:\Serie"
+# Modifica il percorso in cui salvare il file ad es. c:\serie
+download_directory = r"CARTELLA PER IL DOWNLOAD"
 search_term = input("Inserisci il titolo della SERIE da cercare: ")
 search_and_download(search_term, download_directory)
