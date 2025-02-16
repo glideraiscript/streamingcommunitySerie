@@ -344,6 +344,6 @@ def search_and_download(search_term, download_directory):
 
 # Esegui la ricerca e il download per il termine inserito
 # Modifica il percorso in cui salvare il file ad es. c:\serie
-download_directory = r"CARTELLA PER IL DOWNLOAD"
+download_directory = r"c:\serie"
 search_term = input("Inserisci il titolo della SERIE da cercare: ")
 search_and_download(search_term, download_directory)
