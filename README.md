@@ -17,3 +17,7 @@ Per eseguire questo script, è necessario installare alcune librerie Python. Puo
    ```bash
    git clone https://github.com/glideraiscript/streamingcommunity-serie-downloader.git
    cd streamingcommunity-serie-downloader
+
+2. **Installa le librerie**:
+   ```bash
+   pip install -r requirements.txt
